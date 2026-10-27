@@ -1,7 +1,12 @@
-# Hengliyuan OEM Configurator v0.1.0
+# Hengliyuan OEM Configurator v0.1.1
 
-Initial independent release. Plan powder sweetener pack quantities and prepare a customer-entered OEM project brief.
+This patch brings the downloadable source release up to date with the live demo.
 
-Includes company-template review PDF, browser-only state, no login, no automatic submissions and no private company/customer database. Planning inputs are customer-entered requirements, not an approved formulation, quotation, MOQ or production commitment.
+- Add an English-only Monk Fruit Doctor team cover, without a printed website URL or QR code.
+- Link the README cover and company website text to the Hengliyuan website.
+- Add website links to the demo header and footer, opening a new tab so the current worksheet stays intact.
+- Update the demo Open Graph and X image metadata to use the team cover.
 
-See README for local use, static deployment and tests. Code MIT; brand identifiers separately reserved. Live demo: https://briton2008.github.io/hengliyuan-oem-configurator/
+Calculation models, form fields, PDF templates and dependency versions are unchanged. Inputs remain in the current page memory.
+
+The GitHub repository Settings social preview image is separate and has not been configured. Code remains MIT licensed; company names, logos and illustrated brand assets remain subject to TRADEMARKS.md.

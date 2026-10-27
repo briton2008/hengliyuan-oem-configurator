@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v0.1.1 — 2026-10-28
 
 - Replace the simple cover with an English-only Monk Fruit Doctor team illustration.
 - Make the README cover and company website links clickable while preserving local worksheet state.
