@@ -17,6 +17,6 @@ function App() {
   rewrite();const observer=new MutationObserver(rewrite);observer.observe(root.current,{childList:true,subtree:true});return()=>observer.disconnect();
  },[base]);
  const props={onInquiry:setInquiry};
- return <div className="site-shell" ref={root}><header className="topbar"><a href="/tools/">HENGLIYUAN OEM CONFIGURATOR</a><a href="https://heng-li-yuan.com/tools/">Company website ↗</a></header><main><Suspense fallback={<p className="standalone-loading" role="status">Loading tool…</p>}><Tool {...props}/></Suspense></main><footer>Hengliyuan customer tools · Reference planning only · Entries remain in this page.</footer>{inquiry&&<Contact context={inquiry} onClose={()=>setInquiry("")}/>}</div>;
+ return <div className="site-shell" ref={root}><header className="topbar"><a href="/tools/">HENGLIYUAN OEM CONFIGURATOR</a><a className="company-website-link" href="https://heng-li-yuan.com/" target="_blank" rel="noopener noreferrer">Company website ↗</a></header><main><Suspense fallback={<p className="standalone-loading" role="status">Loading tool…</p>}><Tool {...props}/></Suspense></main><footer><a className="company-website-link" href="https://heng-li-yuan.com/" target="_blank" rel="noopener noreferrer">Guilin Hengliyuan Biotech Co., Ltd.</a> · Reference planning only · Entries remain in this page.</footer>{inquiry&&<Contact context={inquiry} onClose={()=>setInquiry("")}/>}</div>;
 }
 createRoot(document.getElementById("root")).render(<App/>);

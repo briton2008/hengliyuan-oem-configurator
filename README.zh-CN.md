@@ -1,6 +1,6 @@
 # Hengliyuan OEM Configurator
 
-[在线演示](https://briton2008.github.io/hengliyuan-oem-configurator/) · [官网工具](https://heng-li-yuan.com/tools/oem-product-configurator/) · [English](README.md)
+[公司官网](https://heng-li-yuan.com/) · [在线演示](https://briton2008.github.io/hengliyuan-oem-configurator/) · [官网工具](https://heng-li-yuan.com/tools/oem-product-configurator/) · [English](README.md)
 
 本仓库只有这一项工具，独立安装、部署和维护版本，不包含其他两个工具或复配成本计算器。界面为英文。
 
