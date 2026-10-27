@@ -1,0 +1,23 @@
+{
+  "repo": "hengliyuan-oem-configurator",
+  "title": "Hengliyuan OEM Configurator",
+  "short": "OEM powder project planning",
+  "slug": "oem-product-configurator",
+  "component": "oem-configurator",
+  "description": "Plan powder sweetener pack quantities and prepare a customer-entered OEM project brief.",
+  "features": [
+    "Stick, jar and pouch requirements without invented quantities or MOQ.",
+    "Net product and retail/primary packaging quantities remain separate.",
+    "Company PDF brief, editable review and a clear list of open items."
+  ],
+  "limit": "Planning inputs are customer-entered requirements, not an approved formulation, quotation, MOQ or production commitment.",
+  "topics": [
+    "oem",
+    "sweeteners",
+    "packaging",
+    "react",
+    "vite",
+    "pdf",
+    "open-source"
+  ]
+}
