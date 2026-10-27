@@ -15,5 +15,7 @@ jobs:
       - run: npm test
       - run: npm run check:release
       - run: npm run build
+      # Azure's regional mirror repeatedly stalled browser dependency downloads.
+      - run: sudo sed -i 's|azure.archive.ubuntu.com|archive.ubuntu.com|g' /etc/apt/sources.list.d/ubuntu.sources
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser

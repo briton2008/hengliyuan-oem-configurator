@@ -3,6 +3,7 @@
 This patch brings the downloadable source release up to date with the live demo.
 
 - Add an English-only Monk Fruit Doctor team cover, without a printed website URL or QR code.
+- Use the primary Ubuntu package mirror for CI browser dependencies after repeated slow regional mirror downloads.
 - Link the README cover and company website text to the Hengliyuan website.
 - Add website links to the demo header and footer, opening a new tab so the current worksheet stays intact.
 - Update the demo Open Graph and X image metadata to use the team cover.
